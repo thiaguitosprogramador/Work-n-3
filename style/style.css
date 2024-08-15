@@ -51,3 +51,6 @@
     .Historia{
         display: none;
     }
+show-more-history{
+    display: flex;
+}
