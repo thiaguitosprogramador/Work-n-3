@@ -29,7 +29,17 @@ body {
     border-bottom: 1px solid #fff;
     background: #000;
 }
-
+@keyframes cambiacolor {
+    0% { color: red; }
+    25% { color: blue; }
+    50% { color: green; }
+    75% { color: orange; }
+    100% { color: red; }
+}
+.cambio:hover{
+    background-color: #000;
+    animation: cambiacolor 5s infinite;
+}
 
 .butones button {
     outline: none;
@@ -98,3 +108,5 @@ body {
 .scrollToTopBtn.show {
     opacity: 1;
 }
+
+   
