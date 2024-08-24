@@ -1,0 +1,60 @@
+#banner {
+    height: 10px;
+}
+
+body {
+    background-color: #4F0112;
+    color: aliceblue;
+}
+#introduccion{
+    text-align: center;
+}
+#imaginate {
+    width: 100%;
+}
+
+.card-body {
+    color: aliceblue;
+}
+
+#navbarNav {
+    justify-content: end;
+}
+
+.img-logo {
+    height: 60px;
+    width: 60px;
+    margin-right: 10px;
+}
+
+.nav-link:hover {
+    border-bottom: 1px solid #fff;
+    background: #000;
+}
+
+
+.butones button {
+    outline: none;
+    border: none;
+    border-radius: 20px;
+    padding: 5px 20px;
+}
+
+#fotoescuela {
+    width: 75px;
+    height: 60px;
+    animation: rotate 5s infinite linear;
+}
+
+@keyframes rotate {
+    from {
+        transform: rotateY(0deg);
+    }
+
+    to {
+        transform: rotateY(360deg);
+    }
+}
+.card-body{
+    background-color: #2B3035;
+}

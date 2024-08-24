@@ -10,3 +10,20 @@ btnReadMore.addEventListener("click", function() {
     historia1.classList.toggle("show-more-history");
     barra.classList.toggle("show-more-history");
 })
+// Mostrar u ocultar el botón de acuerdo con el desplazamiento de la página
+window.addEventListener('scroll', function() {
+    const button = document.getElementById('scrollToTopBtn');
+    if (window.scrollY > 200) { // Muestra el botón si se ha desplazado más de 200px
+        button.classList.add('show');
+    } else {
+        button.classList.remove('show');
+    }
+});
+
+// Función para desplazar hacia arriba
+function scrollToTop() {
+    window.scrollTo({
+        top: 0,
+        behavior: 'smooth'
+    });
+}
