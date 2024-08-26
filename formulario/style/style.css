@@ -1,0 +1,13 @@
+#navbarNav {
+    justify-content: end;
+}
+.img-logo {
+    height: 60px;
+    width: 60px;
+    margin-right: 10px;
+}
+
+.nav-link:hover {
+    border-bottom: 1px solid #fff;
+    background: #000;
+}

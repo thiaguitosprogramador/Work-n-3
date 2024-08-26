@@ -116,4 +116,9 @@ h2{
     display: flex;
     background-color: #000000;
 }
-   
+.hist{
+    font-size: 18px;
+}
+.descri{
+    font-size: 21px;
+}
