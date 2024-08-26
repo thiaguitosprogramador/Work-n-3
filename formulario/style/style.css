@@ -6,8 +6,12 @@
     width: 60px;
     margin-right: 10px;
 }
-
 .nav-link:hover {
     border-bottom: 1px solid #fff;
     background: #000;
+}
+form{
+    margin-top: 10%;
+    background-color: #000;
+    padding: 10%;
 }

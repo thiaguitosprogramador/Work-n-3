@@ -40,7 +40,9 @@ body {
     background-color: #000;
     animation: cambiacolor 5s infinite;
 }
-
+.cambio1:hover{
+    animation: cambiacolor 5s infinite;
+}
 .butones button {
     outline: none;
     border: none;
